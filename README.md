@@ -20,14 +20,14 @@ All required packages can be installed with pip install.
 
 To interact with this code install Streamlit, open your command line, and navigate to the folder containing "pychain.py". Once there run the file in streamlit by typing "streamlit run pychain.py". Your web browser will open and display the following streamlit page:
 
-![streamlit_screenshot.](images/streamlit_screenshot.png)
+![streamlit_screenshot](Images/streamlit_screenshot.png)
 
 
 You can then create a block containg the receiver, sender, and ammount of the transaction. The widget at the bottom of the chain can be used to scroll through the block chain and the "Validate chain" button will run through the whoole chain and verify that each block's hash is the same as the next block's "Prev hash". If it is the page will show "True".
 
 While running the app, you can watch your terminal to see the "winning hash" when the proof of work function finds a valid hash. It should look something like this:
 
-![command_line_screenshot.](images/command_line_screenshot.png)
+![command_line_screenshot](Images/command_line_screenshot.png)
 ---
 
 ## Contributors
